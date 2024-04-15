@@ -27,7 +27,7 @@ workflows:
           agvtool new-version -all $(($LATEST_BUILD_NUMBER + 1))
       - name: Build ipa for distribution
         script: | 
-          xcode-project build-ipa --project HelloLua --scheme ios-workflow
+          xcode-project build-ipa --project /path/HelloLua.xcodeproj --scheme MyScheme
     artifacts:
       - build/ios/ipa/*.ipa
       - /tmp/xcodebuild_logs/*.log
