@@ -33,9 +33,13 @@ workflows:
       - /tmp/xcodebuild_logs/*.log
       - $HOME/Library/Developer/Xcode/DerivedData/**/Build/**/*.app
       - $HOME/Library/Developer/Xcode/DerivedData/**/Build/**/*.dSYM
+
+    integrations:
+      app_store_connect: <appstorekey>
+      
     publishing:
       app_store_connect:
-        auth: appstorekey
+        auth: integration
     
         submit_to_testflight: true 
     
