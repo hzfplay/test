@@ -35,22 +35,22 @@ workflows:
       - /tmp/xcodebuild_logs/*.log
       - $HOME/Library/Developer/Xcode/DerivedData/**/Build/**/*.app
       - $HOME/Library/Developer/Xcode/DerivedData/**/Build/**/*.dSYM
-    publishing:
-  app_store_connect:
-    auth: integration 
- 
-    submit_to_testflight: true 
- 
-    expire_build_submitted_for_review: true
+  publishing:
+    app_store_connect:
+      auth: integration 
+  
+      submit_to_testflight: true 
+  
+      expire_build_submitted_for_review: true
 
-    
-    beta_groups: 
-      - group name 1
-      - group name 2
-     
-    submit_to_app_store: true
+      
+      beta_groups: 
+        - group name 1
+        - group name 2
+      
+      submit_to_app_store: true
 
- 
-    cancel_previous_submissions: true
-    
-    release_type: SCHEDULED
+  
+      cancel_previous_submissions: true
+      
+      release_type: SCHEDULED
