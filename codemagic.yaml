@@ -4,12 +4,14 @@ workflows:
     max_build_duration: 120       # build duration in minutes (min 1, max 120)
     instance_type: mac_mini_m1
     environment:
+      groups:
+        - ios_signing
       ios_signing:
         distribution_type: app_store # or: ad_hoc | development | enterprise
         bundle_identifier: com.fkghuef.grogrogri
       vars:
         BUNDLE_ID: "com.fkghuef.grogrogri"
-        XCODE_WORKSPACE: "HelloLua.xcworkspace" # <-- Put the name of your Xcode workspace here
+        XCODE_WORKSPACE: "HelloLua" # <-- Put the name of your Xcode workspace here
         XCODE_SCHEME: "HelloLua" # <-- Put the name of your Xcode scheme here
         APP_STORE_APPLE_ID: GerardMelody9001@outlook.com
       xcode: latest
