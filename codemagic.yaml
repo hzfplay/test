@@ -28,7 +28,7 @@ workflows:
       - name: Build ipa for distribution
         script: | 
           xcode-project build-ipa 
-            --project "$CM_BUILD_DIR/HelloLua.xcodeproj" \
+            --project "/HelloLua.xcodeproj" \
             --scheme "HelloLua.xcodeproj"
     artifacts:
       - build/ios/ipa/*.ipa
