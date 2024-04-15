@@ -35,7 +35,7 @@ workflows:
       - $HOME/Library/Developer/Xcode/DerivedData/**/Build/**/*.dSYM
 
     integrations:
-      app_store_connect: <appstorekey>
+      app_store_connect: appstorekey
       
     publishing:
       app_store_connect:
