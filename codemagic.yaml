@@ -11,8 +11,8 @@ workflows:
         bundle_identifier: com.fkghuef.grogrogri
       vars:
         BUNDLE_ID: "com.fkghuef.grogrogri"
-        # XCODE_WORKSPACE: "HelloLua.xcworkspace" # <-- Put the name of your Xcode workspace here
-        # XCODE_SCHEME: "HelloLua" # <-- Put the name of your Xcode scheme here
+        XCODE_WORKSPACE: "HelloLua.xcworkspace" # <-- Put the name of your Xcode workspace here
+        XCODE_SCHEME: "HelloLua" # <-- Put the name of your Xcode scheme here
         APP_STORE_APPLE_ID: GerardMelody9001@outlook.com
       xcode: latest
       cocoapods: default
@@ -30,8 +30,8 @@ workflows:
       - name: Build ipa for distribution
         script: | 
           xcode-project build-ipa \
-            --project "HelloLua.xcodeproj"
-            
+           --project "HelloLua.xcodeproj"
+           --scheme "$XCODE_SCHEME" \
     artifacts:
       - build/ios/ipa/*.ipa
       - /tmp/xcodebuild_logs/*.log
