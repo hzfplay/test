@@ -31,7 +31,7 @@ workflows:
         script: | 
           xcode-project build-ipa \
             --project "$CM_BUILD_DIR/HelloLua.xcodeproj" \
-            --scheme "$XCODE_SCHEME"
+            --scheme "$XCODE_SCHEME" -showBuildSettings
     artifacts:
       - build/ios/ipa/*.ipa
       - /tmp/xcodebuild_logs/*.log
