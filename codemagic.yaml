@@ -22,8 +22,6 @@ workflows:
       - name: Install CocoaPods dependencies
         script: | 
           pod install
-      - name: Set up provisioning profiles settings on Xcode project
-        script: xcode-project use-profiles
       - name: Increment build number
         script: | 
           cd $CM_BUILD_DIR
@@ -33,7 +31,7 @@ workflows:
         script: | 
           xcode-project build-ipa \
             --project "HelloLua.xcodeproj"
-            --scheme "$XCODE_SCHEME"
+            --scheme "HelloLua"
     artifacts:
       - build/ios/ipa/*.ipa
       - /tmp/xcodebuild_logs/*.log
