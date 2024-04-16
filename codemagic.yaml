@@ -4,6 +4,8 @@ workflows:
     max_build_duration: 120       # build duration in minutes (min 1, max 120)
     instance_type: mac_mini_m1
     environment:
+      xcode:
+        scheme: HelloLua
       groups:
         - ios_signing
       ios_signing:
@@ -30,8 +32,8 @@ workflows:
       - name: Build ipa for distribution
         script: | 
           xcode-project build-ipa \
-            --project "$CM_BUILD_DIR/HelloLua.xcodeproj"
-            --scheme "ios-workflow"
+            --project "HelloLua.xcodeproj"
+            --scheme "HelloLua"
     artifacts:
       - build/ios/ipa/*.ipa
       - /tmp/xcodebuild_logs/*.log
