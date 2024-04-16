@@ -21,9 +21,6 @@ workflows:
     scripts:
       - name: Set up code signing settings on Xcode project
         script: xcode-project use-profiles
-      - name: Install CocoaPods dependencies
-        script: | 
-          pod install
       - name: Increment build number
         script: | 
           cd $CM_BUILD_DIR
