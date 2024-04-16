@@ -14,7 +14,7 @@ workflows:
         BUNDLE_ID: "com.fkghuef.grogrogri"
         IOS_DIR: ios
         XCODE_PROJECT: "HelloLua.xcodeproj" 
-        XCODE_SCHEME: "HelloLua"  
+        XCODE_SCHEME: "project"  
         APP_STORE_APPLE_ID: 6497224133
       xcode: latest
       cocoapods: default
