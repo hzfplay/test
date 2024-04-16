@@ -10,10 +10,12 @@ workflows:
         distribution_type: app_store # or: ad_hoc | development | enterprise
         bundle_identifier: com.fkghuef.grogrogri
       vars:
+        BUILD_SCRIPT: BuildIos 
         BUNDLE_ID: "com.fkghuef.grogrogri"
-        XCODE_WORKSPACE: "HelloLua.xcodeproj" 
-        XCODE_SCHEME: "HelloLua" 
-        APP_STORE_APPLE_ID: GerardMelody9001@outlook.com
+        IOS_DIR: ios
+        XCODE_PROJECT: "HelloLua.xcodeproj" 
+        XCODE_SCHEME: "HelloLua"  
+        APP_STORE_APPLE_ID: 6497224133
       xcode: latest
       cocoapods: default
     scripts:
@@ -30,8 +32,7 @@ workflows:
       - name: Build ipa for distribution
         script: | 
           xcode-project build-ipa \
-            --project "HelloLua.xcodeproj" \
-            --scheme "HelloLua"
+            script: xcode-project build-ipa --project "$IOS_DIR/$XCODE_PROJECT" --scheme "$XCODE_SCHEME"
     artifacts:
       - build/ios/ipa/*.ipa
       - /tmp/xcodebuild_logs/*.log
