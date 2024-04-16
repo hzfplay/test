@@ -32,7 +32,7 @@ workflows:
       - name: Build ipa for distribution
         script: | 
           xcode-project build-ipa \
-            script: xcode-project build-ipa --project "$IOS_DIR/$XCODE_PROJECT" --scheme "$XCODE_SCHEME"
+            script: xcode-project build-ipa --project "$XCODE_PROJECT" --scheme "$XCODE_SCHEME"
     artifacts:
       - build/ios/ipa/*.ipa
       - /tmp/xcodebuild_logs/*.log
