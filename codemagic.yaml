@@ -8,11 +8,11 @@ workflows:
         - ios_signing
 
     scripts:
-      - name: Set up keychain to be used for code signing using Codemagic cLI "keychain' command
+      - name: Set up keychain to be used for code signing using Codemagic cLI 'keychain' command
         script: keychain initialize
 
       - name: Fetch signing files
-        script: app-store-connect fetch-signing-files "io.iosacademy.i0S-Academy' \
+        script: app-store-connect fetch-signing-files "io.iosacademy.i0S-Academy" \
             --type IOS_APP STORE \ 
             --Create
 
