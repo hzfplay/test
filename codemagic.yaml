@@ -4,8 +4,6 @@ workflows:
     max_build_duration: 120       # build duration in minutes (min 1, max 120)
     instance_type: mac_mini_m1
     environment:
-      xcode:
-        scheme: HelloLua
       groups:
         - ios_signing
       ios_signing:
@@ -13,7 +11,7 @@ workflows:
         bundle_identifier: com.fkghuef.grogrogri
       vars:
         BUNDLE_ID: "com.fkghuef.grogrogri"
-        XCODE_WORKSPACE: "HelloLua.xcodeproj" # <-- Put the name of your Xcode workspace here
+        XCODE_PROJECT: "HelloLua.xcodeproj" # <-- Put the name of your Xcode workspace here
         XCODE_SCHEME: "HelloLua" # <-- Put the name of your Xcode scheme here
         APP_STORE_APPLE_ID: GerardMelody9001@outlook.com
       xcode: latest
@@ -32,8 +30,7 @@ workflows:
       - name: Build ipa for distribution
         script: | 
           xcode-project build-ipa \
-            --project "HelloLua.xcodeproj"
-            --scheme "HelloLua"
+            xcode-project build-ipa --project "$XCODE_PROJECT" --scheme "$XCODE_SCHEME"
     artifacts:
       - build/ios/ipa/*.ipa
       - /tmp/xcodebuild_logs/*.log
