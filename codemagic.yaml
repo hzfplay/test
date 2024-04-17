@@ -33,6 +33,7 @@ workflows:
         script: xcode-project build-ipa 
             --project "HelloLua.xcodeproj"  
             --scheme "HelloLua-mobile" 
+            --archive-flags="-destination 'generic/platform=iOS'" 
     artifacts:
       - build/ios/ipa/*.ipa
       - /tmp/xcodebuild_logs/*.log
