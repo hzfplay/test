@@ -33,7 +33,6 @@ workflows:
         script: xcode-project build-ipa 
             --project "$XCODE_PROJECT"  
             --scheme "$XCODE_SCHEME" 
-            --archive-flags="-destination 'generic/platform=iOS'" 
     artifacts:
       - build/ios/ipa/*.ipa
       - /tmp/xcodebuild_logs/*.log
