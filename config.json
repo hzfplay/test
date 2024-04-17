@@ -1,0 +1,14 @@
+{
+    "appName": "HelloLua",
+    "version": "1.0.0",
+    "permissions": [
+      "camera",
+      "location",
+      "contacts"
+    ],
+    "settings": {
+      "theme": "light",
+      "language": "en"
+    }
+  }
+  
