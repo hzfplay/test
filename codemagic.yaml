@@ -6,27 +6,56 @@ workflows:
     environment:
       groups:
         - ios_signing
-
+      ios_signing:
+        distribution_type: app_store # or: ad_hoc | development | enterprise
+        bundle_identifier: com.fkghuef.grogrogri
+      vars:
+        BUILD_SCRIPT: BuildIos 
+        BUNDLE_ID: "com.fkghuef.grogrogri"
+        IOS_DIR: ios
+        XCODE_PROJECT: "HelloLua.xcodeproj" 
+        XCODE_SCHEME: "HelloLua-mobile"  
+        APP_STORE_APPLE_ID: 6497224133
+      xcode: latest
+      cocoapods: default
     scripts:
-      - name: Set up keychain to be used for code signing using Codemagic CLI 'keychain' command
-        script: keychain initialize
-
-      - name: Fetch signing files
-        script: |
-              app-store-connect fetch-signing-files "io.firstBuild.ios-Academy" \
-              --type IOS_APP_STORE \
-              --create
-
-      - name: Set up signing certificate
-        script: keychain add-certificates
-
       - name: Set up code signing settings on Xcode project
-        script: xcode-project use-profiles 
+        script: xcode-project use-profiles
+      - name: Install CocoaPods dependencies
+        script: | 
+          pod install
+      - name: Increment build number
+        script: | 
+          cd $CM_BUILD_DIR
+          LATEST_BUILD_NUMBER=$(app-store-connect get-latest-app-store-build-number "$APP_STORE_APPLE_ID")
+          agvtool new-version -all $(($LATEST_BUILD_NUMBER + 1))
+      - name: Build ipa for distribution
+        script: xcode-project build-ipa --project "$XCODE_PROJECT" \ --scheme "$XCODE_SCHEME"
+    artifacts:
+      - build/ios/ipa/*.ipa
+      - /tmp/xcodebuild_logs/*.log
+      - $HOME/Library/Developer/Xcode/DerivedData/**/Build/**/*.app
+      - $HOME/Library/Developer/Xcode/DerivedData/**/Build/**/*.dSYM
 
-      - name: Build App
-        script: xcode-project build-ipa --workspace "firstBuild.xcworkspace" --scheme "firstBuild"
+    integrations:
+      app_store_connect: appstorekey
+      
     publishing:
       app_store_connect:
-        api_key: $APP_STORE_CONNECT_PRIVATE_KEY
-        key_id: $APP_STORE_CONNECT_KEY_IDENTIFIER
-        issuer_id: $APP_STORE_CONNECT_ISSUER_ID
+        auth: integration
+    
+        submit_to_testflight: true 
+    
+        expire_build_submitted_for_review: true
+
+        
+        beta_groups: 
+          - group name 1
+          - group name 2
+        
+        submit_to_app_store: true
+
+    
+        cancel_previous_submissions: true
+        
+        release_type: SCHEDULED
