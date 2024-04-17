@@ -13,7 +13,7 @@ workflows:
 
       - name: Fetch signing files
         script: |
-              app-store-connect fetch-signing-files "cancan.firstBuild" \
+              app-store-connect fetch-signing-files "XJSW2M9764" \
               --type IOS_APP_STORE \
               --create
 
