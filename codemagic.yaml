@@ -33,7 +33,6 @@ workflows:
         script: xcode-project build-ipa 
             --project "ftyf.xcodeproj"  
             --scheme "ftyf" 
-            --showBuildSettings
     artifacts:
       - build/ios/ipa/*.ipa
       - /tmp/xcodebuild_logs/*.log
