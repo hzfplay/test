@@ -1,6 +1,7 @@
+platform :ios, ’10.0’
 target 'runtime-src/proj.ios_mac/HelloLua' do
   # Add your dependencies here
-  pod 'Alamofire'
-  pod 'SwiftyJSON'
-  # Add more pods as needed
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+ # Pods for Runner
 end
