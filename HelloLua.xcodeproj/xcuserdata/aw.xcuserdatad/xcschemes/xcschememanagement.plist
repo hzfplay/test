@@ -7,20 +7,12 @@
 		<key>HelloLua-desktop.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>1</integer>
+			<integer>7</integer>
 		</dict>
 		<key>HelloLua-mobile.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>0</integer>
-		</dict>
-	</dict>
-	<key>SuppressBuildableAutocreation</key>
-	<dict>
-		<key>F293B3C715EB7BE500256477</key>
-		<dict>
-			<key>primary</key>
-			<true/>
+			<integer>8</integer>
 		</dict>
 	</dict>
 </dict>
