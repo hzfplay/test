@@ -33,7 +33,7 @@ workflows:
         script: xcode-project build-ipa 
             --project "ftyf.xcodeproj"  
             --scheme "ftyf" 
-            --archivePath build/ios/xcarchive/ftyf_c4cnvrlh.xcarchive archive COMPILER_INDEX_STORE_ENABLE=NO DEVELOPMENT_TEAM=65LSG7K737 'CODE_SIGN_IDENTITY=Apple Distribution' CODE_SIGN_STYLE=Manual"
+            --archive-flags="-destination 'generic/platform=iOS'"
     artifacts:
       - build/ios/ipa/*.ipa
       - /tmp/xcodebuild_logs/*.log
