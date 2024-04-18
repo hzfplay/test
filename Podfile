@@ -1,4 +1,4 @@
-target 'HelloLua' do
+target 'runtime-src/proj.ios_mac/HelloLua' do
   # Add your dependencies here
   pod 'Alamofire'
   pod 'SwiftyJSON'
