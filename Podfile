@@ -4,5 +4,5 @@ target 'HelloLua-mobile' do
   # Comment the next line if you don't want to use dynamic frameworks
   use_frameworks!
  
-  project 'runtime-src/proj.ios_mac/HelloLua.xcodeproj'
+  project 'frameworks/runtime-src/proj.ios_mac/HelloLua.xcodeproj'
 end
