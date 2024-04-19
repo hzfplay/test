@@ -13,7 +13,7 @@ workflows:
         BUILD_SCRIPT: BuildIos 
         BUNDLE_ID: "com.fkghuef.grogrogri"
         IOS_DIR: ios
-        XCODE_PROJECT: "jooj.xcworkspace" 
+        XCODE_PROJECT: "project.xcworkspace" 
         XCODE_SCHEME: "jooj"  
         APP_STORE_APPLE_ID: 6497224133
       xcode: latest
