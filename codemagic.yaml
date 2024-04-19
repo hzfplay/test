@@ -14,7 +14,7 @@ workflows:
         BUNDLE_ID: "com.fkghuef.grogrogri"
         IOS_DIR: ios
         XCODE_PROJECT: "jooj.xcodeproj" 
-        XCODE_SCHEME: "xxxzaa"  
+        XCODE_SCHEME: "jooj"  
         APP_STORE_APPLE_ID: 6497224133
       xcode: latest
       cocoapods: default
