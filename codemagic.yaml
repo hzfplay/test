@@ -19,9 +19,6 @@ workflows:
       xcode: latest
       cocoapods: default
     scripts:
-      - name: one
-        script: | 
-          gem install cocoapods
       - name: two
         script: | 
           pod repo update
