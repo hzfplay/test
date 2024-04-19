@@ -2,6 +2,7 @@
 platform :ios, ’10.0’
 target 'HelloLua-mobile' do
   # Comment the next line if you don't want to use dynamic frameworks
+  pod 'Pods_HelloLua_mobile'
   use_frameworks!
   project 'frameworks/runtime-src/proj.ios_mac/HelloLua.xcodeproj'
 end
