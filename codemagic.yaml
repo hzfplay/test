@@ -13,7 +13,7 @@ workflows:
         BUILD_SCRIPT: BuildIos 
         BUNDLE_ID: "com.fkghuef.grogrogri"
         IOS_DIR: ios
-        XCODE_PROJECT: "jooj.xcodeproj" 
+        XCODE_PROJECT: "jooj.xcworkspace" 
         XCODE_SCHEME: "jooj"  
         APP_STORE_APPLE_ID: 6497224133
       xcode: latest
@@ -31,7 +31,7 @@ workflows:
       #     agvtool new-version -all $(($LATEST_BUILD_NUMBER + 1))
       - name: Build ipa for distribution
         script: xcode-project build-ipa 
-            --project "$XCODE_PROJECT"  
+            --workspace "$XCODE_PROJECT"  
             --scheme "$XCODE_SCHEME" 
     artifacts:
       - build/ios/ipa/*.ipa
