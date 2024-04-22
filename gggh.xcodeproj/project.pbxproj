@@ -7,62 +7,61 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C28DA23A2BD2668200BB8167 /* joojApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C28DA2392BD2668200BB8167 /* joojApp.swift */; };
-		C28DA23C2BD2668200BB8167 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C28DA23B2BD2668200BB8167 /* ContentView.swift */; };
-		C28DA23E2BD2668500BB8167 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C28DA23D2BD2668500BB8167 /* Assets.xcassets */; };
-		C28DA2412BD2668500BB8167 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C28DA2402BD2668500BB8167 /* Preview Assets.xcassets */; };
-		C28DA24C2BD2668500BB8167 /* joojTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C28DA24B2BD2668500BB8167 /* joojTests.swift */; };
-		C28DA2562BD2668500BB8167 /* joojUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C28DA2552BD2668500BB8167 /* joojUITests.swift */; };
-		C28DA2582BD2668500BB8167 /* joojUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C28DA2572BD2668500BB8167 /* joojUITestsLaunchTests.swift */; };
+		C28DA2712BD5EEFF00BB8167 /* ggghApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C28DA2702BD5EEFF00BB8167 /* ggghApp.swift */; };
+		C28DA2732BD5EEFF00BB8167 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C28DA2722BD5EEFF00BB8167 /* ContentView.swift */; };
+		C28DA2752BD5EF0000BB8167 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C28DA2742BD5EF0000BB8167 /* Assets.xcassets */; };
+		C28DA2782BD5EF0100BB8167 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C28DA2772BD5EF0100BB8167 /* Preview Assets.xcassets */; };
+		C28DA2822BD5EF0100BB8167 /* ggghTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C28DA2812BD5EF0100BB8167 /* ggghTests.swift */; };
+		C28DA28C2BD5EF0100BB8167 /* ggghUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C28DA28B2BD5EF0100BB8167 /* ggghUITests.swift */; };
+		C28DA28E2BD5EF0100BB8167 /* ggghUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C28DA28D2BD5EF0100BB8167 /* ggghUITestsLaunchTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		C28DA2482BD2668500BB8167 /* PBXContainerItemProxy */ = {
+		C28DA27E2BD5EF0100BB8167 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = C28DA22E2BD2668200BB8167 /* Project object */;
+			containerPortal = C28DA2652BD5EEFF00BB8167 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = C28DA2352BD2668200BB8167;
-			remoteInfo = jooj;
+			remoteGlobalIDString = C28DA26C2BD5EEFF00BB8167;
+			remoteInfo = gggh;
 		};
-		C28DA2522BD2668500BB8167 /* PBXContainerItemProxy */ = {
+		C28DA2882BD5EF0100BB8167 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = C28DA22E2BD2668200BB8167 /* Project object */;
+			containerPortal = C28DA2652BD5EEFF00BB8167 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = C28DA2352BD2668200BB8167;
-			remoteInfo = jooj;
+			remoteGlobalIDString = C28DA26C2BD5EEFF00BB8167;
+			remoteInfo = gggh;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		C28DA2362BD2668200BB8167 /* jooj.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = jooj.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		C28DA2392BD2668200BB8167 /* joojApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = joojApp.swift; sourceTree = "<group>"; };
-		C28DA23B2BD2668200BB8167 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		C28DA23D2BD2668500BB8167 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		C28DA2402BD2668500BB8167 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		C28DA2422BD2668500BB8167 /* jooj.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = jooj.entitlements; sourceTree = "<group>"; };
-		C28DA2472BD2668500BB8167 /* joojTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = joojTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		C28DA24B2BD2668500BB8167 /* joojTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = joojTests.swift; sourceTree = "<group>"; };
-		C28DA2512BD2668500BB8167 /* joojUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = joojUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		C28DA2552BD2668500BB8167 /* joojUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = joojUITests.swift; sourceTree = "<group>"; };
-		C28DA2572BD2668500BB8167 /* joojUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = joojUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C28DA26D2BD5EEFF00BB8167 /* gggh.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = gggh.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C28DA2702BD5EEFF00BB8167 /* ggghApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ggghApp.swift; sourceTree = "<group>"; };
+		C28DA2722BD5EEFF00BB8167 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C28DA2742BD5EF0000BB8167 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C28DA2772BD5EF0100BB8167 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C28DA27D2BD5EF0100BB8167 /* ggghTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ggghTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C28DA2812BD5EF0100BB8167 /* ggghTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ggghTests.swift; sourceTree = "<group>"; };
+		C28DA2872BD5EF0100BB8167 /* ggghUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ggghUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C28DA28B2BD5EF0100BB8167 /* ggghUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ggghUITests.swift; sourceTree = "<group>"; };
+		C28DA28D2BD5EF0100BB8167 /* ggghUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ggghUITestsLaunchTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		C28DA2332BD2668200BB8167 /* Frameworks */ = {
+		C28DA26A2BD5EEFF00BB8167 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C28DA2442BD2668500BB8167 /* Frameworks */ = {
+		C28DA27A2BD5EF0100BB8167 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C28DA24E2BD2668500BB8167 /* Frameworks */ = {
+		C28DA2842BD5EF0100BB8167 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -72,143 +71,142 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		C28DA22D2BD2668200BB8167 = {
+		C28DA2642BD5EEFE00BB8167 = {
 			isa = PBXGroup;
 			children = (
-				C28DA2382BD2668200BB8167 /* jooj */,
-				C28DA24A2BD2668500BB8167 /* joojTests */,
-				C28DA2542BD2668500BB8167 /* joojUITests */,
-				C28DA2372BD2668200BB8167 /* Products */,
+				C28DA26F2BD5EEFF00BB8167 /* gggh */,
+				C28DA2802BD5EF0100BB8167 /* ggghTests */,
+				C28DA28A2BD5EF0100BB8167 /* ggghUITests */,
+				C28DA26E2BD5EEFF00BB8167 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		C28DA2372BD2668200BB8167 /* Products */ = {
+		C28DA26E2BD5EEFF00BB8167 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C28DA2362BD2668200BB8167 /* jooj.app */,
-				C28DA2472BD2668500BB8167 /* joojTests.xctest */,
-				C28DA2512BD2668500BB8167 /* joojUITests.xctest */,
+				C28DA26D2BD5EEFF00BB8167 /* gggh.app */,
+				C28DA27D2BD5EF0100BB8167 /* ggghTests.xctest */,
+				C28DA2872BD5EF0100BB8167 /* ggghUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		C28DA2382BD2668200BB8167 /* jooj */ = {
+		C28DA26F2BD5EEFF00BB8167 /* gggh */ = {
 			isa = PBXGroup;
 			children = (
-				C28DA2392BD2668200BB8167 /* joojApp.swift */,
-				C28DA23B2BD2668200BB8167 /* ContentView.swift */,
-				C28DA23D2BD2668500BB8167 /* Assets.xcassets */,
-				C28DA2422BD2668500BB8167 /* jooj.entitlements */,
-				C28DA23F2BD2668500BB8167 /* Preview Content */,
+				C28DA2702BD5EEFF00BB8167 /* ggghApp.swift */,
+				C28DA2722BD5EEFF00BB8167 /* ContentView.swift */,
+				C28DA2742BD5EF0000BB8167 /* Assets.xcassets */,
+				C28DA2762BD5EF0100BB8167 /* Preview Content */,
 			);
-			path = jooj;
+			path = gggh;
 			sourceTree = "<group>";
 		};
-		C28DA23F2BD2668500BB8167 /* Preview Content */ = {
+		C28DA2762BD5EF0100BB8167 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				C28DA2402BD2668500BB8167 /* Preview Assets.xcassets */,
+				C28DA2772BD5EF0100BB8167 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		C28DA24A2BD2668500BB8167 /* joojTests */ = {
+		C28DA2802BD5EF0100BB8167 /* ggghTests */ = {
 			isa = PBXGroup;
 			children = (
-				C28DA24B2BD2668500BB8167 /* joojTests.swift */,
+				C28DA2812BD5EF0100BB8167 /* ggghTests.swift */,
 			);
-			path = joojTests;
+			path = ggghTests;
 			sourceTree = "<group>";
 		};
-		C28DA2542BD2668500BB8167 /* joojUITests */ = {
+		C28DA28A2BD5EF0100BB8167 /* ggghUITests */ = {
 			isa = PBXGroup;
 			children = (
-				C28DA2552BD2668500BB8167 /* joojUITests.swift */,
-				C28DA2572BD2668500BB8167 /* joojUITestsLaunchTests.swift */,
+				C28DA28B2BD5EF0100BB8167 /* ggghUITests.swift */,
+				C28DA28D2BD5EF0100BB8167 /* ggghUITestsLaunchTests.swift */,
 			);
-			path = joojUITests;
+			path = ggghUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		C28DA2352BD2668200BB8167 /* jooj */ = {
+		C28DA26C2BD5EEFF00BB8167 /* gggh */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C28DA25B2BD2668500BB8167 /* Build configuration list for PBXNativeTarget "jooj" */;
+			buildConfigurationList = C28DA2912BD5EF0100BB8167 /* Build configuration list for PBXNativeTarget "gggh" */;
 			buildPhases = (
-				C28DA2322BD2668200BB8167 /* Sources */,
-				C28DA2332BD2668200BB8167 /* Frameworks */,
-				C28DA2342BD2668200BB8167 /* Resources */,
+				C28DA2692BD5EEFF00BB8167 /* Sources */,
+				C28DA26A2BD5EEFF00BB8167 /* Frameworks */,
+				C28DA26B2BD5EEFF00BB8167 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = jooj;
-			productName = jooj;
-			productReference = C28DA2362BD2668200BB8167 /* jooj.app */;
+			name = gggh;
+			productName = gggh;
+			productReference = C28DA26D2BD5EEFF00BB8167 /* gggh.app */;
 			productType = "com.apple.product-type.application";
 		};
-		C28DA2462BD2668500BB8167 /* joojTests */ = {
+		C28DA27C2BD5EF0100BB8167 /* ggghTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C28DA25E2BD2668500BB8167 /* Build configuration list for PBXNativeTarget "joojTests" */;
+			buildConfigurationList = C28DA2942BD5EF0100BB8167 /* Build configuration list for PBXNativeTarget "ggghTests" */;
 			buildPhases = (
-				C28DA2432BD2668500BB8167 /* Sources */,
-				C28DA2442BD2668500BB8167 /* Frameworks */,
-				C28DA2452BD2668500BB8167 /* Resources */,
+				C28DA2792BD5EF0100BB8167 /* Sources */,
+				C28DA27A2BD5EF0100BB8167 /* Frameworks */,
+				C28DA27B2BD5EF0100BB8167 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				C28DA2492BD2668500BB8167 /* PBXTargetDependency */,
+				C28DA27F2BD5EF0100BB8167 /* PBXTargetDependency */,
 			);
-			name = joojTests;
-			productName = joojTests;
-			productReference = C28DA2472BD2668500BB8167 /* joojTests.xctest */;
+			name = ggghTests;
+			productName = ggghTests;
+			productReference = C28DA27D2BD5EF0100BB8167 /* ggghTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		C28DA2502BD2668500BB8167 /* joojUITests */ = {
+		C28DA2862BD5EF0100BB8167 /* ggghUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C28DA2612BD2668500BB8167 /* Build configuration list for PBXNativeTarget "joojUITests" */;
+			buildConfigurationList = C28DA2972BD5EF0100BB8167 /* Build configuration list for PBXNativeTarget "ggghUITests" */;
 			buildPhases = (
-				C28DA24D2BD2668500BB8167 /* Sources */,
-				C28DA24E2BD2668500BB8167 /* Frameworks */,
-				C28DA24F2BD2668500BB8167 /* Resources */,
+				C28DA2832BD5EF0100BB8167 /* Sources */,
+				C28DA2842BD5EF0100BB8167 /* Frameworks */,
+				C28DA2852BD5EF0100BB8167 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				C28DA2532BD2668500BB8167 /* PBXTargetDependency */,
+				C28DA2892BD5EF0100BB8167 /* PBXTargetDependency */,
 			);
-			name = joojUITests;
-			productName = joojUITests;
-			productReference = C28DA2512BD2668500BB8167 /* joojUITests.xctest */;
+			name = ggghUITests;
+			productName = ggghUITests;
+			productReference = C28DA2872BD5EF0100BB8167 /* ggghUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		C28DA22E2BD2668200BB8167 /* Project object */ = {
+		C28DA2652BD5EEFF00BB8167 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1530;
 				LastUpgradeCheck = 1530;
 				TargetAttributes = {
-					C28DA2352BD2668200BB8167 = {
+					C28DA26C2BD5EEFF00BB8167 = {
 						CreatedOnToolsVersion = 15.3;
 					};
-					C28DA2462BD2668500BB8167 = {
+					C28DA27C2BD5EF0100BB8167 = {
 						CreatedOnToolsVersion = 15.3;
-						TestTargetID = C28DA2352BD2668200BB8167;
+						TestTargetID = C28DA26C2BD5EEFF00BB8167;
 					};
-					C28DA2502BD2668500BB8167 = {
+					C28DA2862BD5EF0100BB8167 = {
 						CreatedOnToolsVersion = 15.3;
-						TestTargetID = C28DA2352BD2668200BB8167;
+						TestTargetID = C28DA26C2BD5EEFF00BB8167;
 					};
 				};
 			};
-			buildConfigurationList = C28DA2312BD2668200BB8167 /* Build configuration list for PBXProject "jooj" */;
+			buildConfigurationList = C28DA2682BD5EEFF00BB8167 /* Build configuration list for PBXProject "gggh" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -216,36 +214,36 @@
 				en,
 				Base,
 			);
-			mainGroup = C28DA22D2BD2668200BB8167;
-			productRefGroup = C28DA2372BD2668200BB8167 /* Products */;
+			mainGroup = C28DA2642BD5EEFE00BB8167;
+			productRefGroup = C28DA26E2BD5EEFF00BB8167 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				C28DA2352BD2668200BB8167 /* jooj */,
-				C28DA2462BD2668500BB8167 /* joojTests */,
-				C28DA2502BD2668500BB8167 /* joojUITests */,
+				C28DA26C2BD5EEFF00BB8167 /* gggh */,
+				C28DA27C2BD5EF0100BB8167 /* ggghTests */,
+				C28DA2862BD5EF0100BB8167 /* ggghUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		C28DA2342BD2668200BB8167 /* Resources */ = {
+		C28DA26B2BD5EEFF00BB8167 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C28DA2412BD2668500BB8167 /* Preview Assets.xcassets in Resources */,
-				C28DA23E2BD2668500BB8167 /* Assets.xcassets in Resources */,
+				C28DA2782BD5EF0100BB8167 /* Preview Assets.xcassets in Resources */,
+				C28DA2752BD5EF0000BB8167 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C28DA2452BD2668500BB8167 /* Resources */ = {
+		C28DA27B2BD5EF0100BB8167 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C28DA24F2BD2668500BB8167 /* Resources */ = {
+		C28DA2852BD5EF0100BB8167 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -255,49 +253,49 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		C28DA2322BD2668200BB8167 /* Sources */ = {
+		C28DA2692BD5EEFF00BB8167 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C28DA23C2BD2668200BB8167 /* ContentView.swift in Sources */,
-				C28DA23A2BD2668200BB8167 /* joojApp.swift in Sources */,
+				C28DA2732BD5EEFF00BB8167 /* ContentView.swift in Sources */,
+				C28DA2712BD5EEFF00BB8167 /* ggghApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C28DA2432BD2668500BB8167 /* Sources */ = {
+		C28DA2792BD5EF0100BB8167 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C28DA24C2BD2668500BB8167 /* joojTests.swift in Sources */,
+				C28DA2822BD5EF0100BB8167 /* ggghTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C28DA24D2BD2668500BB8167 /* Sources */ = {
+		C28DA2832BD5EF0100BB8167 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C28DA2582BD2668500BB8167 /* joojUITestsLaunchTests.swift in Sources */,
-				C28DA2562BD2668500BB8167 /* joojUITests.swift in Sources */,
+				C28DA28C2BD5EF0100BB8167 /* ggghUITests.swift in Sources */,
+				C28DA28E2BD5EF0100BB8167 /* ggghUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		C28DA2492BD2668500BB8167 /* PBXTargetDependency */ = {
+		C28DA27F2BD5EF0100BB8167 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = C28DA2352BD2668200BB8167 /* jooj */;
-			targetProxy = C28DA2482BD2668500BB8167 /* PBXContainerItemProxy */;
+			target = C28DA26C2BD5EEFF00BB8167 /* gggh */;
+			targetProxy = C28DA27E2BD5EF0100BB8167 /* PBXContainerItemProxy */;
 		};
-		C28DA2532BD2668500BB8167 /* PBXTargetDependency */ = {
+		C28DA2892BD5EF0100BB8167 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = C28DA2352BD2668200BB8167 /* jooj */;
-			targetProxy = C28DA2522BD2668500BB8167 /* PBXContainerItemProxy */;
+			target = C28DA26C2BD5EEFF00BB8167 /* gggh */;
+			targetProxy = C28DA2882BD5EF0100BB8167 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		C28DA2592BD2668500BB8167 /* Debug */ = {
+		C28DA28F2BD5EF0100BB8167 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -349,18 +347,18 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
-				MACOSX_DEPLOYMENT_TARGET = 14.4;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = macosx;
+				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
-		C28DA25A2BD2668500BB8167 /* Release */ = {
+		C28DA2902BD5EF0100BB8167 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -406,71 +404,75 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
-				MACOSX_DEPLOYMENT_TARGET = 14.4;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
-				SDKROOT = macosx;
+				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		C28DA25C2BD2668500BB8167 /* Debug */ = {
+		C28DA2922BD5EF0100BB8167 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = jooj/jooj.entitlements;
-				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"jooj/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"gggh/Preview Content\"";
 				DEVELOPMENT_TEAM = TARRH9WM5L;
-				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
-					"@executable_path/../Frameworks",
+					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.fkghuef.grogrogri;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		C28DA25D2BD2668500BB8167 /* Release */ = {
+		C28DA2932BD5EF0100BB8167 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = jooj/jooj.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"jooj/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"gggh/Preview Content\"";
 				DEVELOPMENT_TEAM = TARRH9WM5L;
-				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
-					"@executable_path/../Frameworks",
+					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.fkghuef.grogrogri;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
-		C28DA25F2BD2668500BB8167 /* Debug */ = {
+		C28DA2952BD5EF0100BB8167 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -479,17 +481,18 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 2TCNDH2R69;
 				GENERATE_INFOPLIST_FILE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = cancan.joojTests;
+				PRODUCT_BUNDLE_IDENTIFIER = cancan.ggghTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/jooj.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/jooj";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/gggh.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/gggh";
 			};
 			name = Debug;
 		};
-		C28DA2602BD2668500BB8167 /* Release */ = {
+		C28DA2962BD5EF0100BB8167 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -498,17 +501,18 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 2TCNDH2R69;
 				GENERATE_INFOPLIST_FILE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = cancan.joojTests;
+				PRODUCT_BUNDLE_IDENTIFIER = cancan.ggghTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/jooj.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/jooj";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/gggh.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/gggh";
 			};
 			name = Release;
 		};
-		C28DA2622BD2668500BB8167 /* Debug */ = {
+		C28DA2982BD5EF0100BB8167 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -517,15 +521,16 @@
 				DEVELOPMENT_TEAM = 2TCNDH2R69;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = cancan.joojUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = cancan.ggghUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
-				TEST_TARGET_NAME = jooj;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = gggh;
 			};
 			name = Debug;
 		};
-		C28DA2632BD2668500BB8167 /* Release */ = {
+		C28DA2992BD5EF0100BB8167 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -534,54 +539,55 @@
 				DEVELOPMENT_TEAM = 2TCNDH2R69;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = cancan.joojUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = cancan.ggghUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
-				TEST_TARGET_NAME = jooj;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = gggh;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		C28DA2312BD2668200BB8167 /* Build configuration list for PBXProject "jooj" */ = {
+		C28DA2682BD5EEFF00BB8167 /* Build configuration list for PBXProject "gggh" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C28DA2592BD2668500BB8167 /* Debug */,
-				C28DA25A2BD2668500BB8167 /* Release */,
+				C28DA28F2BD5EF0100BB8167 /* Debug */,
+				C28DA2902BD5EF0100BB8167 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C28DA25B2BD2668500BB8167 /* Build configuration list for PBXNativeTarget "jooj" */ = {
+		C28DA2912BD5EF0100BB8167 /* Build configuration list for PBXNativeTarget "gggh" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C28DA25C2BD2668500BB8167 /* Debug */,
-				C28DA25D2BD2668500BB8167 /* Release */,
+				C28DA2922BD5EF0100BB8167 /* Debug */,
+				C28DA2932BD5EF0100BB8167 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C28DA25E2BD2668500BB8167 /* Build configuration list for PBXNativeTarget "joojTests" */ = {
+		C28DA2942BD5EF0100BB8167 /* Build configuration list for PBXNativeTarget "ggghTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C28DA25F2BD2668500BB8167 /* Debug */,
-				C28DA2602BD2668500BB8167 /* Release */,
+				C28DA2952BD5EF0100BB8167 /* Debug */,
+				C28DA2962BD5EF0100BB8167 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C28DA2612BD2668500BB8167 /* Build configuration list for PBXNativeTarget "joojUITests" */ = {
+		C28DA2972BD5EF0100BB8167 /* Build configuration list for PBXNativeTarget "ggghUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C28DA2622BD2668500BB8167 /* Debug */,
-				C28DA2632BD2668500BB8167 /* Release */,
+				C28DA2982BD5EF0100BB8167 /* Debug */,
+				C28DA2992BD5EF0100BB8167 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = C28DA22E2BD2668200BB8167 /* Project object */;
+	rootObject = C28DA2652BD5EEFF00BB8167 /* Project object */;
 }

@@ -1,13 +1,13 @@
 //
-//  joojUITests.swift
-//  joojUITests
+//  ggghUITests.swift
+//  ggghUITests
 //
-//  Created by AW on 2024/4/19.
+//  Created by AW on 2024/4/22.
 //
 
 import XCTest
 
-final class joojUITests: XCTestCase {
+final class ggghUITests: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.

@@ -1,13 +1,13 @@
 //
-//  joojUITestsLaunchTests.swift
-//  joojUITests
+//  ggghUITestsLaunchTests.swift
+//  ggghUITests
 //
-//  Created by AW on 2024/4/19.
+//  Created by AW on 2024/4/22.
 //
 
 import XCTest
 
-final class joojUITestsLaunchTests: XCTestCase {
+final class ggghUITestsLaunchTests: XCTestCase {
 
     override class var runsForEachTargetApplicationUIConfiguration: Bool {
         true

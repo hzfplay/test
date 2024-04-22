@@ -1,14 +1,14 @@
 //
-//  joojApp.swift
-//  jooj
+//  ggghApp.swift
+//  gggh
 //
-//  Created by AW on 2024/4/19.
+//  Created by AW on 2024/4/22.
 //
 
 import SwiftUI
 
 @main
-struct joojApp: App {
+struct ggghApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
