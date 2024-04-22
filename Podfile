@@ -7,8 +7,3 @@ target 'HelloLua-mobile' do
   # pod 'Alamofire'
   # pod 'SwiftyJSON', '~> 2.2.0'
 end
-
-#target 'OncarbTests' do
-#  pod 'Alamofire'
-#  pod 'SwiftlyJSON', '~> 2.2.0'
-#end
