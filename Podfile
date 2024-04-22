@@ -4,7 +4,8 @@ use_frameworks!
 source 'https://github.com/CocoaPods/Specs.git'
 
 target 'gggh' do
-  pod 'SwiftyJSON', '~> 2.2.0'
+  # pod 'Alamofire'
+  # pod 'SwiftyJSON', '~> 2.2.0'
 end
 
 #target 'OncarbTests' do
