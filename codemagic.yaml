@@ -3,8 +3,6 @@ workflows:
     name: iOS Workflow       # workflow name displayed in Codemagic UI
     max_build_duration: 120       # build duration in minutes (min 1, max 120)
     instance_type: mac_mini_m1
-    integrations:
-      app_store_connect: appstorekey
     environment:
       groups:
         - ios_signing
@@ -26,11 +24,11 @@ workflows:
           pod install
       - name: Set up code signing settings on Xcode project
         script: xcode-project use-profiles
-      - name: Increment build number  
-        script: | 
-          cd $CM_BUILD_DIR
-          LATEST_BUILD_NUMBER=$(app-store-connect get-latest-app-store-build-number "$APP_STORE_APPLE_ID")
-          agvtool new-version -all $(($LATEST_BUILD_NUMBER + 1))
+      # - name: Increment build number  
+      #   script: | 
+      #     cd $CM_BUILD_DIR
+      #     LATEST_BUILD_NUMBER=$(app-store-connect get-latest-app-store-build-number "$APP_STORE_APPLE_ID")
+      #     agvtool new-version -all $(($LATEST_BUILD_NUMBER + 1))
       - name: Build ipa for distribution
         script: xcode-project build-ipa 
             --workspace "$XCODE_WORKSPACE"  
@@ -40,6 +38,9 @@ workflows:
       - /tmp/xcodebuild_logs/*.log
       - $HOME/Library/Developer/Xcode/DerivedData/**/Build/**/*.app
       - $HOME/Library/Developer/Xcode/DerivedData/**/Build/**/*.dSYM
+
+    integrations:
+      app_store_connect: appstorekey
       
     publishing:
       app_store_connect:
