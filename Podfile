@@ -6,6 +6,7 @@ source 'https://github.com/CocoaPods/Specs.git'
 target 'gggh' do
   pod 'Alamofire'
   pod 'SwiftyJSON', '~> 2.2.0'
+  pod 'Alamofire', '~> 5.4'
 end
 
 #target 'OncarbTests' do
