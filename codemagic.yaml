@@ -13,8 +13,8 @@ workflows:
         BUILD_SCRIPT: BuildIos 
         BUNDLE_ID: "com.fkghuef.grogrogri"
         IOS_DIR: ios
-        XCODE_WORKSPACE: "frameworks/runtime-src/proj.ios_mac/HelloLua.xcworkspace" 
-        XCODE_SCHEME: "HelloLua"  
+        XCODE_WORKSPACE: "HelloLua.xcworkspace" 
+        XCODE_SCHEME: "HelloLua-mobile"  
         APP_STORE_APPLE_ID: 6497224133
       xcode: latest
       cocoapods: default
