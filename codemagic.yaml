@@ -39,12 +39,11 @@ workflows:
       - $HOME/Library/Developer/Xcode/DerivedData/**/Build/**/*.app
       - $HOME/Library/Developer/Xcode/DerivedData/**/Build/**/*.dSYM
 
-    integrations:
-      app_store_connect: appstorekey
+ 
       
     publishing:
       app_store_connect:
-        auth: integration 
+   
       
         key_id: $APP_STORE_CONNECT_KEY_IDENTIFIER
         issuer_id: $APP_STORE_CONNECT_ISSUER_ID
