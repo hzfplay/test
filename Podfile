@@ -1,5 +1,5 @@
 # Uncomment this line to define a global platform for your project
-platform :ios, '8.0'
+platform :ios, ’10.0’
 use_frameworks!
 source 'https://github.com/CocoaPods/Specs.git'
 project 'frameworks/runtime-src/proj.ios_mac/HelloLua.xcodeproj'
