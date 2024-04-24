@@ -8,7 +8,7 @@ workflows:
         - ios_signing
       ios_signing:
         distribution_type: app_store # or: ad_hoc | development | enterprise
-        bundle_identifier: com.fkghuef.grogrogri
+        bundle_identifier: "com.fkghuef.grogrogri" 
       vars:
         BUILD_SCRIPT: BuildIos 
         BUNDLE_ID: "com.fkghuef.grogrogri"
